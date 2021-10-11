@@ -7,7 +7,7 @@ def start(update, context):
     update.message.reply_text('Hola, humano')
 
 if __name__ == '__main__':
-    updater = Updater(token='2093019819:AAHg5Ws8BaW4SsXTbYRK2YOe2lRFs4Hir6E', use_context=True)
+    updater = Updater(token='Token', use_context=True)
 
     dp = updater.dispatcher
 
